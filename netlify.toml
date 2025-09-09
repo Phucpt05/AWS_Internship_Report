@@ -31,7 +31,7 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
-  HUGO_BASEURL = "https://<tên-site-của-bạn>.netlify.app/"
+  HUGO_BASEURL = "https://phucpham-report-aws-internship.netlify.app/"
 
 [context.deploy-preview]
   command = "hugo -b $DEPLOY_PRIME_URL"
