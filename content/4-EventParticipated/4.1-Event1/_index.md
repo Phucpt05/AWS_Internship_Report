@@ -6,121 +6,117 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Summary Report: “Migration & Modernization Track – Ho Chi Minh City Connect Edition”
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share real-world lessons from **large-scale migration and modernization** projects  
+- Explore how **Amazon Q Developer** and AI tools accelerate application modernization  
+- Provide best practices for **VMware transformation** and migration accelerators  
+- Strengthen understanding of **security-by-design** in modern cloud architectures  
 
 ### Speakers
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Hung Nguyen Gia** – Head of Solutions Architect, AWS  
+- **Son Do** – Technical Account Manager, AWS  
+- **Nguyen Van Hai** – Director of Software Engineering, Techcombank  
+- **Phuc Nguyen** – Solutions Architect, AWS  
+- **Alex Tran** – AI Director, OCB  
+- **Hung Hoang** – Customer Solutions Manager, AWS  
+- **Taiki Dang** – Solutions Architect, AWS  
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### Completing Large-Scale Migration and Modernisation with AWS
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- Many enterprises face challenges when moving from **on-premises workloads** to AWS.  
+- AWS provides **migration accelerators** and structured pathways to simplify the process.  
+- **Techcombank case study**: Built a strong cloud foundation to support digital transformation goals.  
 
-#### Transitioning to modern application architecture – Microservices
+#### Modernizing Applications with Generative AI-Powered Tools
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- **Amazon Q Developer** enhances the entire SDLC with AI-powered support.  
+- Capabilities demonstrated:  
+  - Automated **code generation** and **documentation**  
+  - Intelligent **unit test creation**  
+  - Security posture improvements integrated into workflows  
+- Acts as an **AI collaborator** helping developers optimize and modernize legacy systems.  
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### Panel Discussion: Application Modernization
 
-#### Domain-Driven Design (DDD)
+- Experts from **OCB, LPBank Securities, Ninety Eight** shared practical strategies.  
+- Key points discussed:  
+  - Balancing **innovation** and **stability** during modernization  
+  - Leveraging **AI-powered refactoring** tools  
+  - Ensuring modernization aligns with **business objectives**  
+- Consensus: Modernization must follow a **phased, ROI-driven approach**.  
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### Transforming VMware with AI-Driven Cloud Modernisation
 
-#### Event-Driven Architecture
+- Vietnamese organizations are accelerating migration from **VMware estates** to AWS.  
+- **AWS Transform** helps migrate with minimal downtime using proven playbooks.  
+- Target modernization to **EKS, RDS, and Serverless** for long-term scalability.  
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+#### AWS Security at Scale: From Development to Production
 
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- AWS promotes a **security-by-design** approach across all stages.  
+- Covered five pillars: **Identify, Prevent, Detect, Respond, Remediate**.  
+- **Generative AI integration** supports automated threat analysis and rapid response.  
+- Encouraged building **resilient architectures** that adapt to emerging threats.  
 
 ### Key Takeaways
 
 #### Design Mindset
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Business-first approach** ensures migration supports organizational strategy.  
+- Building a **culture of innovation** across IT and business units is critical.  
 
 #### Technical Architecture
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Migration accelerators** speed up large-scale transformation projects.  
+- **Amazon Q Developer** increases developer productivity and strengthens code quality.  
+- **VMware-to-AWS playbooks** provide practical patterns for safe migration.  
+- Embedding **AI into security pipelines** enhances resilience.  
 
 #### Modernization Strategy
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- Follow a **phased roadmap**: migrate first, then modernize progressively.  
+- Apply the **7Rs framework** to select the right modernization path per workload.  
+- Always measure **ROI** through both cost savings and business agility.  
 
 ### Applying to Work
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- Pilot **AWS migration accelerators** for workloads currently on-premises.  
+- Adopt **Amazon Q Developer** into the software development lifecycle.  
+- Create a **VMware-to-AWS migration roadmap** for legacy infrastructure.  
+- Integrate **AI-driven security measures** into CI/CD pipelines.  
+- Ensure modernization projects are **ROI-driven** and phased.  
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the **Migration & Modernization Track** was extremely valuable and provided practical lessons for cloud adoption.  
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+#### Learning from Case Studies
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+- The **Techcombank migration story** highlighted how to align cloud adoption with business transformation.  
+- Showed the importance of creating a **robust foundation** for modernization.  
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### Hands-on Technical Exposure
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- **Amazon Q Developer demos** revealed how AI accelerates documentation, unit testing, and code optimization.  
+- Playbooks for **VMware migration** helped visualize downtime-aware patterns.  
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### Networking and Discussions
 
-#### Some event photos
-*Add your event photos here*  
+- Panel discussions with **banking and fintech leaders** emphasized business-first modernization.  
+- Opportunities to exchange insights with AWS architects and industry peers.  
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Lessons Learned
+
+- Migration is **not only lift-and-shift** — it requires modernization planning.  
+- AI tools like **Amazon Q Developer** can shorten development cycles significantly.  
+- **Security-by-design** must be integrated throughout the modernization journey.  
+
+  
+
+> Overall, the track delivered clear guidance on how to plan and execute **migration and modernization projects on AWS**, combining **AI-powered developer tools, proven migration frameworks, and security-first strategies**.  
