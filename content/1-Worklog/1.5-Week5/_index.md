@@ -10,48 +10,46 @@ pre: " <b> 1.5. </b> "
 {{% /notice %}}
 
 
+
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand the Shared Responsibility Model in AWS.
+* Learn and practice AWS Identity and Access Management (IAM), Cognito, Organizations, and KMS.
+* Gain hands-on experience configuring IAM users, roles, and policies through the AWS Console and CLI.
+
+---
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 1 | - Learn about the Shared Responsibility Model (customer vs AWS responsibilities) <br> - Review AWS security concepts and compliance policies | 09/15/2025 | 09/15/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Learn about AWS IAM and its components: <br>&emsp; + Root User and IAM User <br>&emsp; + Group and Role <br>&emsp; + Policies and Permissions <br> - Understand IAM best practices | 09/16/2025 | 09/16/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - **Practice:** <br>&emsp; + Create IAM User and Group <br>&emsp; + Create and attach IAM Policies <br>&emsp; + Create and assume IAM Role via STS <br>&emsp; + Add MFA for Root and Users | 09/17/2025 | 09/17/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Study Amazon Cognito and its structure: <br>&emsp; + User Pools <br>&emsp; + Identity Pools <br>&emsp; + Authentication Flows <br> - Integrate Cognito into sample apps | 09/18/2025 | 09/18/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Learn about AWS Organizations and Identity Center: <br>&emsp; + Create Organization Units (OUs) <br>&emsp; + Manage multiple accounts <br>&emsp; + Configure Service Control Policies (SCPs) and SSO | 09/19/2025 | 09/19/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Explore AWS Key Management Service (KMS): <br>&emsp; + Create and manage keys <br>&emsp; + Apply encryption to S3 and EBS <br>&emsp; + Understand key rotation & permissions | 09/20/2025 | 09/20/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | - **Practice Labs:** <br>&emsp; + Enable AWS Security Hub and CloudTrail <br>&emsp; + Analyze logs via Athena <br>&emsp; + Configure IAM Role for Lambda <br>&emsp; + Automate EC2 start/stop using policies | 09/21/2025 | 09/21/2025 | <https://cloudjourney.awsstudygroup.com/> |
 
+
+---
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Understood the AWS Shared Responsibility Model and security responsibilities.
 
-* Successfully created and configured an AWS Free Tier account.
+* Mastered AWS IAM concepts: users, roles, groups, policies, and best practices.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Gained hands-on experience creating and managing IAM users, roles, and policies.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Learned Amazon Cognito for user authentication and federated access.
 
-* Used AWS CLI to perform basic operations such as:
+* Explored AWS Organizations and Identity Center for multi-account management.
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Practiced key management and encryption with AWS KMS.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Enabled AWS Security Hub and performed log monitoring with CloudTrail and Athena.
+
+* Improved skills in securing AWS environments via console and CLI tools.
+
+
+---
