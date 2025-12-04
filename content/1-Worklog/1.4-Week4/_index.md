@@ -1,6 +1,6 @@
 ---
 title: "Week 4 Worklog"
-date: "2025-09-09"
+date: "2025-09-29"
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
@@ -19,12 +19,12 @@ pre: " <b> 1.4. </b> "
 ### Weekly Task Schedule:
 | Day | Tasks | Start Date | Completion Date | Resources |
 |-----|-------|------------|----------------|-----------|
-| 2 | - FCJ team orientation<br>- Review internship policies and procedures | 06/12/2025 | 06/12/2025 | Internal documentation |
-| 3 | - Study AWS service architecture and categorization<br>- Focus on Compute, Storage, Networking, Database services | 07/12/2025 | 07/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | - AWS Free Tier account setup<br>- AWS CLI installation and configuration<br>- Practice basic CLI commands | 08/12/2025 | 08/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Comprehensive AWS Storage services study:<br>&emsp;• Amazon S3 (buckets, storage classes, access points)<br>&emsp;• Amazon Glacier archival storage<br>&emsp;• Snow Family data migration<br>&emsp;• Storage Gateway hybrid solutions<br>&emsp;• AWS Backup centralized backup | 09/12/2025 | 09/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | - Hands-on Labs: S3 bucket creation and configuration<br>- Infrastructure deployment and backup plan implementation<br>- VM Import/Export testing<br>- Access Control Lists (ACL) configuration | 10/12/2025 | 10/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 7 | - Advanced Labs: Storage Gateway file share setup<br>- FSx Multi-AZ testing (performance, deduplication, quotas)<br>- CloudFront CDN integration<br>- Storage scaling and monitoring | 11/12/2025 | 11/12/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - FCJ team orientation<br>- Review internship policies and procedures | 29/09/2025 | 29/09/2025 | Internal documentation |
+| 3 | - Study AWS service architecture and categorization<br>- Focus on Compute, Storage, Networking, Database services | 30/09/2025 | 30/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - AWS Free Tier account setup<br>- AWS CLI installation and configuration<br>- Practice basic CLI commands | 01/10/2025 | 01/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Comprehensive AWS Storage services study:<br>&emsp;• Amazon S3 (buckets, storage classes, access points)<br>&emsp;• Amazon Glacier archival storage<br>&emsp;• Snow Family data migration<br>&emsp;• Storage Gateway hybrid solutions<br>&emsp;• AWS Backup centralized backup | 02/10/2025 | 02/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Hands-on Labs: S3 bucket creation and configuration<br>- Infrastructure deployment and backup plan implementation<br>- VM Import/Export testing<br>- Access Control Lists (ACL) configuration | 03/10/2025 | 03/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 7 | - Advanced Labs: Storage Gateway file share setup<br>- FSx Multi-AZ testing (performance, deduplication, quotas)<br>- CloudFront CDN integration<br>- Storage scaling and monitoring | 04/10/2025 | 04/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
 
 ---
 

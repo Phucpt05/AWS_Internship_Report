@@ -1,13 +1,10 @@
 ---
 title: "Worklog Tuần 10"
-date: "2025-09-09"
+date: "2025-11-10"
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
@@ -18,11 +15,13 @@ pre: " <b> 1.10. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Study **Amazon CloudWatch Metrics** và create custom dashboards. <br> - **Thực hành:** Set alarms cho EC2 instance CPU utilization. | 10/11/2025   | 10/11/2025      | [AWS CloudWatch Docs](https://docs.aws.amazon.com/cloudwatch/) |
+| 3   | - Learn **CloudTrail** cho tracking AWS API activity. <br> - **Thực hành:** Query và analyze logs để identify recent user actions. | 11/11/2025   | 11/11/2025      | [AWS CloudTrail Docs](https://docs.aws.amazon.com/cloudtrail/) |
+| 4   | - Explore **Cost Explorer** cho billing và usage insights. <br> - **Thực hành:** Analyze cost by service và region, identify top resource spenders. | 12/11/2025   | 12/11/2025      | [AWS Cost Explorer Guide](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html) |
+| 5   | - Learn về **AWS Budgets**. <br> - **Thực hành:** Set cost budget và create email alert thresholds. | 13/11/2025   | 13/11/2025      | [AWS Budgets Docs](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
+| 6   | - Introduction đến **CloudFormation**. <br> - **Thực hành:** Deploy và delete stacks sử dụng CloudFormation templates. | 14/11/2025   | 14/11/2025      | [AWS CloudFormation Docs](https://docs.aws.amazon.com/cloudformation/) |
+| 7   | - **Monitoring nâng cao:** CloudWatch Logs và Insights <br> - Create log groups và filter log data <br> - Set up automated responses đến alarms | 15/11/2025   | 15/11/2025      | [AWS CloudWatch Logs](https://docs.aws.amazon.com/cloudwatch/) |
+| 8   | - **Infrastructure as Code nâng cao:** Nested stacks và drift detection <br> - Implement change sets cho safe updates <br> - Practice resource cleanup automation | 16/11/2025   | 16/11/2025      | [AWS CloudFormation Advanced](https://cloudjourney.awsstudygroup.com/) |
 
 
 ### Kết quả đạt được tuần 10:

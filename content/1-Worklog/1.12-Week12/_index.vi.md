@@ -1,13 +1,10 @@
 ---
 title: "Worklog Tuần 12"
-date: "2025-09-09"
+date: "2025-11-24"
 weight: 12
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
@@ -17,11 +14,13 @@ pre: " <b> 1.12 </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Final Project Review và Refinement <br> - Complete any outstanding features <br> - Optimize performance và cost                                                                                             | 24/11/2025   | 24/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Documentation và Knowledge Transfer <br>&emsp; + Create comprehensive documentation <br>&emsp; + Record demo videos <br>&emsp; + Prepare knowledge transfer materials                                            | 25/11/2025   | 25/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Final Presentation Preparation <br> - **Thực hành:** <br>&emsp; + Create presentation slides <br>&emsp; + Rehearse technical demonstrations <br> &emsp; + Prepare cho Q&A session | 26/11/2025   | 26/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Project Showcase và Presentation <br>&emsp; + Present final architecture <br>&emsp; + Demonstrate key features <br>&emsp; + Share lessons learned   <br>                  | 27/11/2025   | 27/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Final Assessment và Feedback <br>&emsp; + Complete self-assessment <br>&emsp; + Receive mentor feedback <br>&emsp; + Document future improvement areas                                                                                         | 28/11/2025   | 28/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 7   | - Project Cleanup và Resource Management <br>&emsp; + Clean up all AWS resources <br>&emsp; + Prepare final cost report <br>&emsp; + Archive project deliverables | 29/11/2025   | 29/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 8   | - Course Completion và Certification <br>&emsp; + Final knowledge assessment <br>&emsp; + Receive completion certificate <br>&emsp; + Plan next learning steps | 30/11/2025   | 30/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 12:

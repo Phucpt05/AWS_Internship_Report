@@ -1,15 +1,10 @@
 ---
 title: "Worklog Tuần 7"
-date: "2025-09-09"
+date: "2025-10-20"
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 7:
 
 * Kết nối, làm quen với các thành viên trong First Cloud Journey.
@@ -18,11 +13,13 @@ pre: " <b> 1.7. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Review AWS database fundamentals <br>&emsp; + RDS instance lifecycle <br>&emsp; + Backup & Restore <br>&emsp; + Security Groups & IAM roles                                                        | 20/10/2025   | 20/10/2025      | AWS Study Group Labs Week 6               |
+| 3   | - Recreate VPC, EC2, và RDS setup từ đầu <br>&emsp; + Test connectivity giữa instances <br>&emsp; + Verify subnet và routing configurations                                                | 21/10/2025   | 21/10/2025      | Lab 05 Review                             |
+| 4   | - Practice deploying Aurora cluster và performing migrations <br>&emsp; + MSSQL → Aurora MySQL <br>&emsp; + Oracle → MySQL schema conversion                                                        | 22/10/2025   | 22/10/2025      | Lab 43 Review                             |
+| 5   | - Automate deployment sử dụng AWS CLI <br>&emsp; + Create và delete instances qua command line <br>&emsp; + Configure DB parameters sử dụng CLI commands                                                 | 23/10/2025   | 23/10/2025      | AWS CLI Documentation                     |
+| 6   | - Troubleshoot simulated issues <br>&emsp; + Memory pressure test <br>&emsp; + Table constraint errors <br>&emsp; + Network timeout resolution                                                        | 24/10/2025   | 24/10/2025      | Lab 43 (Modules 244–245)                  |
+| 7   | - Recap session và prepare weekly summary report <br>&emsp; + Reflect on challenges và fixes <br>&emsp; + Plan next modules (e.g., serverless databases, DynamoDB)                                 | 25/10/2025   | 25/10/2025      | AWS Study Group Summary                   |
+| 8   | - **Thực hành nâng cao:** Performance optimization và monitoring <br>&emsp; + Database benchmarking <br>&emsp; + Query performance analysis <br>&emsp; + Cost optimization strategies | 26/10/2025   | 26/10/2025      | AWS Study Group Advanced                  |
 
 
 ### Kết quả đạt được tuần 7:

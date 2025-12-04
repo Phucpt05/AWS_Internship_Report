@@ -1,13 +1,10 @@
 ---
 title: "Worklog Tuần 11"
-date: "2025-09-09"
+date: "2025-11-17"
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 11:
@@ -18,11 +15,13 @@ pre: " <b> 1.11. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Study AWS Well-Architected Framework <br> - Review năm pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization                                                                                             | 17/11/2025   | 17/11/2025      | [AWS Well-Architected](https://docs.aws.amazon.com/wellarchitected/) |
+| 3   | - Learn về AWS Migration Services <br>&emsp; + AWS Migration Hub <br>&emsp; + Application Discovery Service <br>&emsp; + Database Migration Service (DMS) <br>&emsp; + Server Migration Service (SMS)                                            | 18/11/2025   | 18/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Explore AWS Machine Learning Services <br> - **Thực hành:** <br>&emsp; + Amazon SageMaker basics <br>&emsp; + Comprehend cho text analysis <br> &emsp; + Rekognition cho image analysis | 19/11/2025   | 19/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Study AWS DevOps và Developer Tools <br>&emsp; + CodeCommit, CodeBuild, CodeDeploy <br>&emsp; + CodePipeline <br>&emsp; + Cloud9 IDE <br> - Learn về Elastic Beanstalk   <br>                  | 20/11/2025   | 20/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Thực hành:** DevOps Pipeline Implementation <br>&emsp; + Create CI/CD pipeline với CodePipeline <br>&emsp; + Deploy sample application <br>&emsp; + Monitor deployment success                                                                                         | 21/11/2025   | 21/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 7   | - **Final Project Preparation:** <br>&emsp; + Review all learned services <br>&emsp; + Plan comprehensive architecture <br>&emsp; + Prepare presentation materials | 22/11/2025   | 22/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 8   | - **Final Project Implementation:** <br>&emsp; + Deploy multi-service architecture <br>&emsp; + Document implementation <br>&emsp; + Performance testing và optimization | 23/11/2025   | 23/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 11:

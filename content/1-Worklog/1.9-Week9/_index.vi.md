@@ -1,13 +1,10 @@
 ---
 title: "Worklog Tuần 9"
-date: "2025-09-09"
+date: "2025-11-03"
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 9:
@@ -18,11 +15,13 @@ pre: " <b> 1.9. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Learn about AWS Lambda basics: Function creation, handler, và permissions. <br> - **Thực hành:** Deploy first Lambda function sử dụng console và test invocation. | 03/11/2025   | 03/11/2025      | [AWS Lambda Docs](https://docs.aws.amazon.com/lambda/) |
+| 3   | - Connect Lambda với **API Gateway** để expose RESTful endpoints. <br> - Test GET/POST requests sử dụng Postman. | 04/11/2025   | 04/11/2025      | [API Gateway Overview](https://docs.aws.amazon.com/apigateway/) |
+| 4   | - Study **SNS** (Simple Notification Service). <br> - **Thực hành:** Create SNS topic và subscribe via email. | 05/11/2025   | 05/11/2025      | [AWS SNS Docs](https://docs.aws.amazon.com/sns/) |
+| 5   | - Learn **SQS** (Simple Queue Service) cho message queuing. <br> - **Thực hành:** Send và receive messages sử dụng AWS Console và connect SQS to Lambda. | 06/11/2025   | 06/11/2025      | [AWS SQS Docs](https://docs.aws.amazon.com/sqs/) |
+| 6   | - Explore **Step Functions** cho orchestrating workflows. <br> - **Thực hành:** Build a simple flow integrating Lambda, SQS, và SNS. <br> - Clean up serverless resources sau khi testing. | 07/11/2025   | 07/11/2025      | [AWS Step Functions Docs](https://docs.aws.amazon.com/step-functions/) |
+| 7   | - **Serverless nâng cao:** EventBridge và DynamoDB integration <br> - Create event-driven architectures với EventBridge <br> - Implement Lambda functions với DynamoDB triggers | 08/11/2025   | 08/11/2025      | [AWS EventBridge Docs](https://docs.aws.amazon.com/eventbridge/) |
+| 8   | - **Serverless Security:** IAM best practices cho Lambda <br> - Implement VPC endpoints cho serverless services <br> - Monitor và debug serverless applications | 09/11/2025   | 09/11/2025      | [AWS Serverless Security](https://cloudjourney.awsstudygroup.com/) |
 
 
 ### Kết quả đạt được tuần 9:

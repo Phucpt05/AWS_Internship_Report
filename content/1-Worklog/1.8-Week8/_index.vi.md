@@ -1,13 +1,10 @@
 ---
 title: "Worklog Tuần 8"
-date: "2025-09-09"
+date: "2025-10-27"
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 8:
@@ -18,11 +15,13 @@ pre: " <b> 1.8. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Review IAM basics: Users, Groups, Roles, và Policies. <br> - **Thực hành:** Create IAM users và attach policies. | 27/10/2025   | 27/10/2025      | [AWS IAM Documentation](https://docs.aws.amazon.com/iam/) |
+| 3   | - Học về AWS KMS (Key Management Service). <br> - **Thực hành:** Create encryption keys và encrypt/decrypt S3 objects. | 28/10/2025   | 28/10/2025      | [AWS KMS Documentation](https://docs.aws.amazon.com/kms/) |
+| 4   | - Study Amazon VPC fundamentals: Subnets, Route Tables, Internet Gateway, và NAT Gateway. <br> - **Thực hành:** Design a custom VPC với private và public subnets. | 29/10/2025   | 29/10/2025      | [AWS VPC Guide](https://docs.aws.amazon.com/vpc/) |
+| 5   | - Explore Security Groups và Network ACLs. <br> - Configure inbound/outbound rules cho EC2 instances. | 30/10/2025   | 30/10/2025      | [AWS Networking & Security](https://cloudjourney.awsstudygroup.com/) |
+| 6   | - **Thực hành:** Launch EC2 trong custom VPC, attach IAM role, và verify SSH connectivity. <br> - Clean up resources sau khi testing. | 31/10/2025   | 31/10/2025      | [AWS EC2 & VPC Labs](https://cloudjourney.awsstudygroup.com/) |
+| 7   | - **Networking nâng cao:** VPC Peering và Transit Gateway <br> - Configure VPC endpoints cho secure service access <br> - Monitor network traffic với VPC Flow Logs | 01/11/2025   | 01/11/2025      | [AWS Advanced Networking](https://cloudjourney.awsstudygroup.com/) |
+| 8   | - **Security Deep Dive:** AWS WAF và Shield <br> - Implement DDoS protection <br> - Configure web application firewall rules | 02/11/2025   | 02/11/2025      | [AWS Security Services](https://cloudjourney.awsstudygroup.com/) |
 
 
 ### Kết quả đạt được tuần 8:

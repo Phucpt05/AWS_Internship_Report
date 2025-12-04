@@ -1,13 +1,10 @@
 ---
 title: "Week 11 Worklog"
-date: "2025-10-15"
+date: "2025-11-17"
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 11 Objectives:
@@ -18,11 +15,13 @@ pre: " <b> 1.11. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Study AWS Well-Architected Framework <br> - Review the five pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization                                                                                                   | 17/11/2025 | 17/11/2025      | [AWS Well-Architected](https://docs.aws.amazon.com/wellarchitected/) |
+| 3   | - Learn about AWS Migration Services <br>&emsp; + AWS Migration Hub <br>&emsp; + Application Discovery Service <br>&emsp; + Database Migration Service (DMS) <br>&emsp; + Server Migration Service (SMS)                                              | 18/11/2025 | 18/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Explore AWS Machine Learning Services <br> - **Practice:** <br>&emsp; + Amazon SageMaker basics <br>&emsp; + Comprehend for text analysis <br> &emsp; + Rekognition for image analysis | 19/11/2025 | 19/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Study AWS DevOps and Developer Tools <br>&emsp; + CodeCommit, CodeBuild, CodeDeploy <br>&emsp; + CodePipeline <br>&emsp; + Cloud9 IDE <br> - Learn about Elastic Beanstalk   <br>                            | 20/11/2025 | 20/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - **Practice:** DevOps Pipeline Implementation <br>&emsp; + Create CI/CD pipeline with CodePipeline <br>&emsp; + Deploy sample application <br>&emsp; + Monitor deployment success                                                                                     | 21/11/2025 | 21/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 7   | - **Final Project Preparation:** <br>&emsp; + Review all learned services <br>&emsp; + Plan comprehensive architecture <br>&emsp; + Prepare presentation materials | 22/11/2025 | 22/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 8   | - **Final Project Implementation:** <br>&emsp; + Deploy multi-service architecture <br>&emsp; + Document implementation <br>&emsp; + Performance testing and optimization | 23/11/2025 | 23/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 11 Achievements:

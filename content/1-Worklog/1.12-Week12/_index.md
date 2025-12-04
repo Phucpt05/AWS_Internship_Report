@@ -1,13 +1,10 @@
 ---
 title: "Week 12 Worklog"
-date: "2025-10-22"
+date: "2025-11-24"
 weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
 ### Week 12 Objectives:
@@ -18,11 +15,13 @@ pre: " <b> 1.12. </b> "
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Final Project Review and Refinement <br> - Complete any outstanding features <br> - Optimize performance and cost                                                                                                   | 24/11/2025 | 24/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Documentation and Knowledge Transfer <br>&emsp; + Create comprehensive documentation <br>&emsp; + Record demo videos <br>&emsp; + Prepare knowledge transfer materials                                              | 25/11/2025 | 25/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Final Presentation Preparation <br> - **Practice:** <br>&emsp; + Create presentation slides <br>&emsp; + Rehearse technical demonstrations <br> &emsp; + Prepare for Q&A session | 26/11/2025 | 26/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Project Showcase and Presentation <br>&emsp; + Present final architecture <br>&emsp; + Demonstrate key features <br>&emsp; + Share lessons learned   <br>                            | 27/11/2025 | 27/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Final Assessment and Feedback <br>&emsp; + Complete self-assessment <br>&emsp; + Receive mentor feedback <br>&emsp; + Document future improvement areas                                                                                     | 28/11/2025 | 28/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 7   | - Project Cleanup and Resource Management <br>&emsp; + Clean up all AWS resources <br>&emsp; + Prepare final cost report <br>&emsp; + Archive project deliverables | 29/11/2025 | 29/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 8   | - Course Completion and Certification <br>&emsp; + Final knowledge assessment <br>&emsp; + Receive completion certificate <br>&emsp; + Plan next learning steps | 30/11/2025 | 30/11/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Week 12 Achievements:

@@ -1,15 +1,10 @@
 ---
 title: "Worklog Tuần 6"
-date: "2025-09-09"
+date: "2025-10-13"
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-
 ### Mục tiêu tuần 6:
 
 * Kết nối, làm quen với các thành viên trong First Cloud Journey.
@@ -18,11 +13,13 @@ pre: " <b> 1.6. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Tìm hiểu các khái niệm Database cơ bản <br> - Review về relational vs non-relational, scalability, replication                                                                 | 13/10/2025   | 13/10/2025      | AWS Study Group Module 06-01              |
+| 3   | - Học về Amazon RDS & Aurora <br>&emsp; + Tạo RDS instance <br>&emsp; + Storage types <br>&emsp; + High availability (Multi-AZ) <br>&emsp; + Aurora cluster setup                     | 14/10/2025   | 14/10/2025      | AWS Study Group Module 06-02              |
+| 4   | - Tìm hiểu về Redshift và ElastiCache <br>- So sánh RDS vs Redshift                                                | 15/10/2025   | 15/10/2025      | AWS Study Group Module 06-03              |
+| 5   | - **Thực hành:** Tạo infrastructure cơ bản <br>&emsp; + Tạo VPC, EC2, và Security Groups <br>&emsp; + Cấu hình RDS Subnet Group và Database Instance                                   | 16/10/2025   | 16/10/2025      | Lab 05 (Modules 220–227)                  |
+| 6   | - **Triển khai ứng dụng:** Kết nối EC2 đến RDS <br>&emsp; + Backup & Restore <br>&emsp; + Resource cleanup                                                    | 17/10/2025   | 17/10/2025      | Lab 05 (Modules 226–228)                  |
+| 7   | - **Lab nâng cao:** Database migration scenarios <br>&emsp; + Migrate MSSQL to Aurora MySQL <br>&emsp; + Oracle to MySQL schema conversion <br>&emsp; + Serverless migration & troubleshooting | 18/10/2025   | 18/10/2025      | Lab 43 (Modules 229–245)                  |
+| 8   | - **Review cuối cùng:** Database performance monitoring và optimization techniques <br>&emsp; + Parameter tuning <br>&emsp; + Query optimization <br>&emsp; + Scaling strategies | 19/10/2025   | 19/10/2025      | Lab 43 (Modules 246–250)                  |
 
 
 ### Kết quả đạt được tuần 6:
