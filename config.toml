@@ -1,4 +1,5 @@
-baseURL = "https://silver-naiad-250f78.netlify.app/"
+baseURL = "https://Phucpt05.github.io/aws-internship-report/"
+
 relativeURLs = true
 canonifyURLs = true
 
