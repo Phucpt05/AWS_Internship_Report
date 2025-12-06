@@ -1,4 +1,4 @@
-baseURL = "https://Phucpt05.github.io/aws-internship-report/"
+baseURL = "https://phucpt05.github.io/aws-internship-report/"
 
 relativeURLs = true
 canonifyURLs = true
