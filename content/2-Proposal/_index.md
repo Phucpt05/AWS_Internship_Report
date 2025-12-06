@@ -5,111 +5,136 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
-
-# IoT Weather Platform for Lab Research
-## A Unified AWS Serverless Solution for Real-Time Weather Monitoring
+## 🐦 Proposal: Flyora – E-commerce Platform for Bird Lovers
 
 ### 1. Executive Summary
-The IoT Weather Platform is designed for the ITea Lab team in Ho Chi Minh City to enhance weather data collection and analysis. It supports up to 5 weather stations, with potential scalability to 10-15, utilizing Raspberry Pi edge devices with ESP32 sensors to transmit data via MQTT. The platform leverages AWS Serverless services to deliver real-time monitoring, predictive analytics, and cost efficiency, with access restricted to 5 lab members via Amazon Cognito.
+Flyora is a specialized web application designed to serve bird enthusiasts across Vietnam. It offers curated products such as bird food, toys, cages, and decorative accessories tailored to species like Chào Mào, Vẹt, Yến Phụng, and Chích Chòe. Built with modern web technologies and hosted on AWS, Flyora ensures scalability, performance, and secure access. The platform aims to become the go-to destination for bird care and ornamentation, combining e-commerce with personalization and community engagement.
+
+---
 
 ### 2. Problem Statement
-### What’s the Problem?
-Current weather stations require manual data collection, becoming unmanageable with multiple units. There is no centralized system for real-time data or analytics, and third-party platforms are costly and overly complex.
+**Current Challenges**:
+- No centralized platform for bird-specific products
+- Generic pet stores lack species-specific recommendations
+- Poor mobile responsiveness and outdated UI in existing platforms
+- Limited backend scalability and search capabilities
 
-### The Solution
-The platform uses AWS IoT Core to ingest MQTT data, AWS Lambda and API Gateway for processing, Amazon S3 for storage (including a data lake), and AWS Glue Crawlers and ETL jobs to extract, transform, and load data from the S3 data lake to another S3 bucket for analysis. AWS Amplify with Next.js provides the web interface, and Amazon Cognito ensures secure access. Similar to Thingsboard and CoreIoT, users can register new devices and manage connections, though this platform operates on a smaller scale and is designed for private use. Key features include real-time dashboards, trend analysis, and low operational costs.
+**Proposed Solution**:
+Flyora delivers a responsive, category-driven shopping experience with secure user authentication, real-time product filtering, and a scalable backend. It supports both desktop and mobile users, with future plans for AI-powered recommendations and chatbot support.
 
-### Benefits and Return on Investment
-The solution establishes a foundational resource for lab members to develop a larger IoT platform, serving as a study resource, and provides a data foundation for AI enthusiasts for model training or analysis. It reduces manual reporting for each station via a centralized platform, simplifying management and maintenance, and improves data reliability. Monthly costs are $0.66 USD per the AWS Pricing Calculator, with a 12-month total of $7.92 USD. All IoT equipment costs are covered by the existing weather station setup, eliminating additional development expenses. The break-even period of 6-12 months is achieved through significant time savings from reduced manual work.
+---
 
 ### 3. Solution Architecture
-The platform employs a serverless AWS architecture to manage data from 5 Raspberry Pi-based stations, scalable to 15. Data is ingested via AWS IoT Core, stored in an S3 data lake, and processed by AWS Glue Crawlers and ETL jobs to transform and load it into another S3 bucket for analysis. Lambda and API Gateway handle additional processing, while Amplify with Next.js hosts the dashboard, secured by Cognito. The architecture is detailed below:
+#### 📄 System Architecture Diagram
+![System Architecture Diagram](https://phucqb.sirv.com/Images/SystemArch.drawio.png)
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+#### 🧩 Frontend (Web Tier)
+- **Amazon S3**: Static web hosting for frontend assets
+- **CloudFront**: CDN for global content delivery
+- **Responsive design**: Mobile-friendly interface
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
 
-### AWS Services Used
-- **AWS IoT Core**: Ingests MQTT data from 5 stations, scalable to 15.
-- **AWS Lambda**: Processes data and triggers Glue jobs (two functions).
-- **Amazon API Gateway**: Facilitates web app communication.
-- **Amazon S3**: Stores raw data in a data lake and processed outputs (two buckets).
-- **AWS Glue**: Crawlers catalog data, and ETL jobs transform and load it.
-- **AWS Amplify**: Hosts the Next.js web interface.
-- **Amazon Cognito**: Secures access for lab users.
 
-### Component Design
-- **Edge Devices**: Raspberry Pi collects and filters sensor data, sending it to IoT Core.
-- **Data Ingestion**: AWS IoT Core receives MQTT messages from the edge devices.
-- **Data Storage**: Raw data is stored in an S3 data lake; processed data is stored in another S3 bucket.
-- **Data Processing**: AWS Glue Crawlers catalog the data, and ETL jobs transform it for analysis.
-- **Web Interface**: AWS Amplify hosts a Next.js app for real-time dashboards and analytics.
-- **User Management**: Amazon Cognito manages user access, allowing up to 5 active accounts.
+#### 🔐 Authentication & Security
+- **Amazon Cognito**: User authentication and authorization
+- **IAM**: Identity and access management
+- **CloudWatch**: Monitoring and security layer
+
+#### 🔄 Backend Services (App Tier)
+- **Amazon API Gateway**: HTTP API management
+- **AWS Lambda Functions**: 
+  - Chatbot handler
+  - Import automation
+  - API handler
+- **Amazon Bedrock**: Embedding Model and LLM Model for AI-powered features
+
+#### 📦 Data & Storage (Data Tier)
+- **Amazon RDS for PostgreSQL**: Relational database
+- **DynamoDB**: NoSQL database
+- **Amazon S3**: Data storage
+
+#### 🔧 CI/CD & Development
+- **GitLab**:  Version control and CI/CD pipeline triggers
+- **AWS CodeBuild**: Automated build process
+- **AWS CodePipeline**: Continuous integration and deployment
+
+---
 
 ### 4. Technical Implementation
-**Implementation Phases**
-This project has two parts—setting up weather edge stations and building the weather platform—each following 4 phases:
-- Build Theory and Draw Architecture: Research Raspberry Pi setup with ESP32 sensors and design the AWS serverless architecture (1 month pre-internship)
-- Calculate Price and Check Practicality: Use AWS Pricing Calculator to estimate costs and adjust if needed (Month 1).
-- Fix Architecture for Cost or Solution Fit: Tweak the design (e.g., optimize Lambda with Next.js) to stay cost-effective and usable (Month 2).
-- Develop, Test, and Deploy: Code the Raspberry Pi setup, AWS services with CDK/SDK, and Next.js app, then test and release to production (Months 2-3).
 
-**Technical Requirements**
-- Weather Edge Station: Sensors (temperature, humidity, rainfall, wind speed), a microcontroller (ESP32), and a Raspberry Pi as the edge device. Raspberry Pi runs Raspbian, handles Docker for filtering, and sends 1 MB/day per station via MQTT over Wi-Fi.
-- Weather Platform: Practical knowledge of AWS Amplify (hosting Next.js), Lambda (minimal use due to Next.js), AWS Glue (ETL), S3 (two buckets), IoT Core (gateway and rules), and Cognito (5 users). Use AWS CDK/SDK to code interactions (e.g., IoT Core rules to S3). Next.js reduces Lambda workload for the fullstack web app.
+#### Phases:
+1. **AWS Learning & Setup** – Master AWS services and architecture design
+2. **Development & Integration** – Build frontend and connect AWS backend
+3. **Testing & Deployment** – Complete testing and production release
+
+#### Month 1 - AWS Learning Focus:
+- **Week 1-2**: AWS fundamentals (S3, Lambda, API Gateway, DynamoDB)
+- **Week 3**: Advanced services (Cognito, Bedrock, OpenSearch)
+- **Week 4**: Architecture design and database modeling with MySQL Workbench
+
+#### Technical Requirements:
+- AWS services proficiency for serverless architecture
+- Frontend development with S3 static hosting
+- DynamoDB for NoSQL data management
+- GitHub for version control and CI/CD integration
+
+---
 
 ### 5. Timeline & Milestones
-**Project Timeline**
-- Pre-Internship (Month 0): 1 month for planning and old station review.
-- Internship (Months 1-3): 3 months.
-    - Month 1: Study AWS and upgrade hardware.
-    - Month 2: Design and adjust architecture.
-    - Month 3: Implement, test, and launch.
-- Post-Launch: Up to 1 year for research.
+
+| Phase                    | Duration   | Key Milestones                           |
+|--------------------------|------------|------------------------------------------|
+| **Month 1: AWS Learning**| 4 weeks    | • AWS fundamentals mastered<br>• Architecture designed<br>• Database schema created |
+| **Month 2: Development** | 4 weeks    | • Frontend UI completed<br>• Lambda functions built<br>• API Gateway configured |
+| **Month 3: Integration** | 4 weeks    | • Full system integration<br>• Testing completed<br>• Production deployment |
+
+---
 
 ### 6. Budget Estimation
-You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01).  
-Or you can download the [Budget Estimation File](../attachments/budget_estimation.pdf).
 
-### Infrastructure Costs
-- AWS Services:
-    - AWS Lambda: $0.00/month (1,000 requests, 512 MB storage).
-    - S3 Standard: $0.15/month (6 GB, 2,100 requests, 1 GB scanned).
-    - Data Transfer: $0.02/month (1 GB inbound, 1 GB outbound).
-    - AWS Amplify: $0.35/month (256 MB, 500 ms requests).
-    - Amazon API Gateway: $0.01/month (2,000 requests).
-    - AWS Glue ETL Jobs: $0.02/month (2 DPUs).
-    - AWS Glue Crawlers: $0.07/month (1 crawler).
-    - MQTT (IoT Core): $0.08/month (5 devices, 45,000 messages).
+| Item                        | Monthly Cost | Annual Cost |
+|-----------------------------|--------------|-------------|
+| Amazon S3 + CloudFront      | $0.20        | $2.40       |
+| AWS Lambda                  | $0.00        | $0.00       |
+| Amazon API Gateway          | $0.01        | $0.12       |
+| DynamoDB                    | $0.25        | $3.00       |
+| Amazon Cognito              | $0.08        | $0.96       |
+| CloudWatch & Logs           | $0.05        | $0.60       |
+| Amazon Bedrock (Embedding/LLM)| $0.10      | $1.20       |
+| Amazon RDS for PostgreSQL   | $0.20        | $2.40       |
+| CodePipeline/CodeBuild      | $0.05        | $0.60       |
+| **Total Estimate**          | **$0.94**    | **$11.28**  |
 
-Total: $0.7/month, $8.40/12 months
+Hardware costs are not applicable as Flyora is a web-only platform.
 
-- Hardware: $265 one-time (Raspberry Pi 5 and sensors).
+---
 
 ### 7. Risk Assessment
-#### Risk Matrix
-- Network Outages: Medium impact, medium probability.
-- Sensor Failures: High impact, low probability.
-- Cost Overruns: Medium impact, low probability.
 
-#### Mitigation Strategies
-- Network: Local storage on Raspberry Pi with Docker.
-- Sensors: Regular checks and spares.
-- Cost: AWS budget alerts and optimization.
+| Risk                   | Impact   | Probability | Mitigation Strategy                          |
+|------------------------|----------|-------------|-----------------------------------------------|
+| Lambda cold starts     | Medium   | Medium      | Provisioned concurrency for critical functions|
+| DynamoDB throttling    | Medium   | Low         | Auto-scaling and proper partition key design  |
+| RDS downtime           | Medium   | Low         | Multi-AZ deployment, automated backups        |
+| Cost overruns          | Low      | Low         | Monitor with AWS Budgets and CloudWatch alerts|
+| Bedrock API limits     | Medium   | Low         | Monitor usage, fallback to cached results     |
 
-#### Contingency Plans
-- Revert to manual methods if AWS fails.
-- Use CloudFormation for cost-related rollbacks.
+---
 
 ### 8. Expected Outcomes
-#### Technical Improvements: 
-Real-time data and analytics replace manual processes.  
-Scalable to 10-15 stations.
-#### Long-term Value
-1-year data foundation for AI research.  
-Reusable for future projects.
+
+#### Technical Improvements:
+- Responsive, mobile-friendly, UI/UX
+- Secure user authentication and role management (Cognito, IAM)
+- Scalable backend with Lambda/API Gateway
+- Real-time product filtering and chatbot support
+- AI-powered features via Bedrock (Embedding/LLM)
+- Robust data storage with RDS, DynamoDB, and S3
+
+#### Business Value:
+- Centralized platform for bird lovers in Vietnam
+- Reduced reliance on generic pet stores
+- Foundation for future AI features and community expansion
+- Potential for mobile app and chatbot integration
+

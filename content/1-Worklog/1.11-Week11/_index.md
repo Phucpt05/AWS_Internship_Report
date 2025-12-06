@@ -26,31 +26,43 @@ pre: " <b> 1.11. </b> "
 
 ### Week 11 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Mastered the AWS Well-Architected Framework and understood the five pillars:
+  * Operational Excellence
+  * Security
+  * Reliability
+  * Performance Efficiency
+  * Cost Optimization
 
-* Successfully created and configured an AWS Free Tier account.
+* Gained comprehensive knowledge of AWS Migration Services:
+  * AWS Migration Hub for tracking migration progress
+  * Application Discovery Service for on-premises application discovery
+  * Database Migration Service (DMS) for database migration
+  * Server Migration Service (SMS) for server migration
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully explored AWS Machine Learning Services with hands-on experience:
+  * Amazon SageMaker basics for building and training ML models
+  * Amazon Comprehend for text analysis and insights extraction
+  * Amazon Rekognition for image and video analysis
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Acquired practical skills in AWS DevOps and Developer Tools:
+  * CodeCommit for source code management
+  * CodeBuild for build automation
+  * CodeDeploy for automated deployment
+  * CodePipeline for CI/CD pipeline creation
+  * Cloud9 IDE for cloud-based development
+  * Elastic Beanstalk for application deployment
 
-* Used AWS CLI to perform basic operations such as:
+* Successfully implemented a complete DevOps pipeline:
+  * Created CI/CD pipeline with CodePipeline
+  * Deployed sample application through automated pipeline
+  * Monitored deployment success and failure scenarios
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Completed final project preparation:
+  * Reviewed all learned AWS services
+  * Planned comprehensive multi-service architecture
+  * Prepared presentation materials for final showcase
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Implemented final project with multi-service architecture:
+  * Deployed integrated AWS services
+  * Documented implementation details
+  * Conducted performance testing and optimization

@@ -25,33 +25,39 @@ pre: " <b> 1.12 </b> "
 
 ### Kết quả đạt được tuần 12:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thành thành công việc rà soát và hoàn thiện dự án cuối kỳ:
+  * Giải quyết tất cả các tính năng và yêu cầu còn lại
+  * Tối ưu hóa hiệu suất để sử dụng tài nguyên tốt hơn
+  * Triển khai các chiến lược tối ưu hóa chi phí để giảm chi phí
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tạo tài liệu toàn diện và tài liệu chuyển giao kiến thức:
+  * Phát triển tài liệu kỹ thuật chi tiết cho dự án
+  * Ghi lại các video demo giới thiệu các chức năng chính
+  * Chuẩn bị tài liệu chuyển giao kiến thức cho bàn giao nhóm
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Chuẩn bị và trình bày bài thuyết trình cuối kỳ:
+  * Tạo các slide trình bày chuyên nghiệp
+  * Tập luyện thành công các buổi trình diễn kỹ thuật
+  * Xử lý hiệu quả phiên hỏi đáp với các bên liên quan
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Trình bày thành công kiến trúc và tính năng dự án cuối kỳ:
+  * Trình bày kiến trúc đa dịch vụ toàn diện
+  * Trình diễn các tính năng và chức năng chính
+  * Chia sẻ các bài học quý giá trong suốt dự án
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Hoàn thành đánh giá cuối kỳ và nhận phản hồi mang tính xây dựng:
+  * Thực hiện đánh giá tự kỹ lưỡng về kết quả dự án
+  * Nhận phản hồi giá trị từ các mentor
+  * Tài liệu hóa các lĩnh vực cần cải thiện trong tương lai
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Thực hiện dọn dẹp dự án và quản lý tài nguyên kỹ lưỡng:
+  * Dọn dẹp đúng cách tất cả tài nguyên AWS để tránh chi phí không cần thiết
+  * Chuẩn báo cáo chi phí cuối kỳ chi tiết với phân tích
+  * Lưu trữ tất cả các sản phẩm của dự án để tham khảo trong tương lai
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hoàn thành thành công khóa học và nhận chứng chỉ:
+  * Đạt bài đánh giá kiến thức cuối kỳ với kết quả xuất sắc
+  * Nhận chứng chỉ hoàn thành khóa học
+  * Lập kế hoạch các bước học tiếp theo để tiếp tục phát triển kỹ năng AWS
 
 

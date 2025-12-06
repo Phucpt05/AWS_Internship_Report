@@ -1,33 +1,63 @@
 ---
-title: "Workshop"
-date: "2025-09-09"
+title : "Workshop"
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
+# Triển khai hệ thống thương mại điện tử Flyora trên AWS
+
+### Tổng quan
+
+Trong workshop này, bạn sẽ triển khai các thành phần cốt lõi của nền tảng **Flyora** theo mô hình **Serverless** trên AWS.  
+Mục tiêu là xây dựng hệ thống có khả năng mở rộng, tối ưu chi phí và dễ bảo trì.
+
+Các thành phần triển khai:
+
+- **Frontend**: Lưu trữ & phân phối giao diện qua **S3 + CloudFront**
+- **Backend API**: Xử lý logic nghiệp vụ qua **API Gateway + AWS Lambda**
+- **Cơ sở dữ liệu**: Quản lý dữ liệu sản phẩm / đơn hàng bằng **DynamoDB + S3**
+- **Xác thực người dùng**: Thực hiện thông qua **Amazon Cognito**
+- **Chatbot**: Hỗ trợ tư vấn sản phẩm, tích hợp vào UI (Nhóm AI thực hiện)
+
+Workshop được phân chia theo vai trò nhóm để dễ triển khai song song:
+**Backend (BE), AI (Chatbot), và Frontend (FE)**.
+
+---
+
+### Kiến trúc tổng thể
+
+![Flyora Architecture](/images/5-Workshop/flyora-architecture.png)
+
+---
+
+### Nội dung Workshop
+
+1. [Giới thiệu mục tiêu & kết quả kỳ vọng](1-Introduction/)
+
+2. **Backend Workshop (BE)** — Xây dựng API + Pipeline import dữ liệu tự động
+   - [Chuẩn bị & Cấu hình Lambda Trigger cho S3](2-Backend/2.1/)
+   - [Tạo Lambda tự động ghi dữ liệu CSV vào DynamoDB (S3 Trigger)](2-Backend/2.2/)
+   - [Tạo API Gateway và tích hợp Lambda làm Backend API](2-Backend/2.3/)
+   - [Kiểm thử API bằng Postman / API Gateway Console](2-Backend/2.4/)
+
+3. **AI Workshop (Chatbot)** — Hỗ trợ tư vấn sản phẩm
+   - [Tạo VPC  & Cấu hình Sercurity Group cho RDS và Lambda](3-AI/3.1/)
+   - [Cấu hình RDS và kết nối với Dbeaver](3-AI/3.2/)
+   - [Tạo logic cho hàm lambda](3-AI/3.3/)
+
+4. **Frontend Workshop (FE)** — Hiển thị dữ liệu & Hosting website
+   -  [Hosting website với S3](4-Frontend/4.1/)
+   -  [Phân phối với CloudFront](4-Frontend/4.2/)
+   -  [Kết nối với API](4-Frontend/4.3/)
+
+5. [Thiết lập CI/CD tự động deploy](5-CICD/)
+
+6. [Dọn dẹp tài nguyên để tránh phát sinh chi phí](6-Cleanup/)
+
+---
+
+{{% notice info %}}
+Workshop này được thiết kế chạy trong phạm vi **AWS Free Tier**,  
+không sử dụng EC2, không SSH, và không yêu cầu dịch vụ trả phí.
 {{% /notice %}}
-
-
-# Đảm bảo truy cập Hybrid an toàn đến S3 bằng cách sử dụng VPC endpoint
-
-#### Tổng quan
-
-**AWS PrivateLink** cung cấp kết nối riêng tư đến các dịch vụ aws từ VPCs hoặc trung tâm dữ liệu (on-premise) mà không làm lộ lưu lượng truy cập ra ngoài public internet.
-
-Trong bài lab này, chúng ta sẽ học cách tạo, cấu hình, và kiểm tra VPC endpoints để cho phép workload của bạn tiếp cận các dịch vụ AWS mà không cần đi qua Internet công cộng.
-
-Chúng ta sẽ tạo hai loại endpoints để truy cập đến Amazon S3: gateway vpc endpoint và interface vpc endpoint. Hai loại vpc endpoints này mang đến nhiều lợi ích tùy thuộc vào việc bạn truy cập đến S3 từ môi trường cloud hay từ trung tâm dữ liệu (on-premise).
-+ **Gateway** - Tạo gateway endpoint để gửi lưu lượng đến Amazon S3 hoặc DynamoDB using private IP addresses. Bạn điều hướng lưu lượng từ VPC của bạn đến gateway endpoint bằng các bảng định tuyến (route tables)
-+ **Interface** - Tạo interface endpoint để gửi lưu lượng đến các dịch vụ điểm cuối (endpoints) sử dụng Network Load Balancer để phân phối lưu lượng. Lưu lượng dành cho dịch vụ điểm cuối được resolved bằng DNS.
-
-#### Nội dung
-
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Chuẩn bị](5.2-Prerequiste/)
-3. [Truy cập đến S3 từ VPC](5.3-S3-vpc/)
-4. [Truy cập đến S3 từ TTDL On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (làm thêm)](5.5-Policy/)
-6. [Dọn dẹp tài nguyên](5.6-Cleanup/)

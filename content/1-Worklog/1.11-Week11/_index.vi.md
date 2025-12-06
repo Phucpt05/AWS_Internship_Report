@@ -26,33 +26,45 @@ pre: " <b> 1.11. </b> "
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Nắm vững AWS Well-Architected Framework và hiểu năm trụ cột:
+  * Operational Excellence (Vận hành xuất sắc)
+  * Security (Bảo mật)
+  * Reliability (Độ tin cậy)
+  * Performance Efficiency (Hiệu suất hiệu quả)
+  * Cost Optimization (Tối ưu hóa chi phí)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Nắm được kiến thức toàn diện về các dịch vụ AWS Migration:
+  * AWS Migration Hub để theo dõi tiến trình di chuyển
+  * Application Discovery Service để khám phá ứng dụng on-premises
+  * Database Migration Service (DMS) để di chuyển cơ sở dữ liệu
+  * Server Migration Service (SMS) để di chuyển máy chủ
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Khám phá thành công các dịch vụ AWS Machine Learning với kinh nghiệm thực hành:
+  * Amazon SageMaker cơ bản để xây dựng và huấn luyện mô hình ML
+  * Amazon Comprehend để phân tích văn bản và trích xuất thông tin
+  * Amazon Rekognition để phân tích hình ảnh và video
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Có được kỹ năng thực tiễn về AWS DevOps và Developer Tools:
+  * CodeCommit để quản lý mã nguồn
+  * CodeBuild để tự động hóa build
+  * CodeDeploy để triển khai tự động
+  * CodePipeline để tạo pipeline CI/CD
+  * Cloud9 IDE để phát triển dựa trên đám mây
+  * Elastic Beanstalk để triển khai ứng dụng
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Triển khai thành công pipeline DevOps hoàn chỉnh:
+  * Tạo pipeline CI/CD với CodePipeline
+  * Triển khai ứng dụng mẫu qua pipeline tự động
+  * Giám sát thành công và thất bại của việc triển khai
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hoàn thành chuẩn bị dự án cuối kỳ:
+  * Xem xét lại tất cả các dịch vụ AWS đã học
+  * Lập kế hoạch kiến trúc đa dịch vụ toàn diện
+  * Chuẩn bị tài liệu trình bày cho buổi showcase cuối kỳ
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Triển khai dự án cuối kỳ với kiến trúc đa dịch vụ:
+  * Triển khai các dịch vụ AWS tích hợp
+  * Tài liệu hóa chi tiết triển khai
+  * Thực hiện kiểm tra hiệu suất và tối ưu hóa
 
 

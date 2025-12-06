@@ -26,31 +26,37 @@ pre: " <b> 1.12. </b> "
 
 ### Week 12 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Successfully completed final project review and refinement:
+  * Addressed all outstanding features and requirements
+  * Optimized performance for better resource utilization
+  * Implemented cost optimization strategies to reduce expenses
 
-* Successfully created and configured an AWS Free Tier account.
+* Created comprehensive documentation and knowledge transfer materials:
+  * Developed detailed technical documentation for the project
+  * Recorded demo videos showcasing key functionalities
+  * Prepared knowledge transfer materials for team handover
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Prepared and delivered final presentation:
+  * Created professional presentation slides
+  * Successfully rehearsed technical demonstrations
+  * Effectively handled Q&A session with stakeholders
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Successfully showcased final project architecture and features:
+  * Presented comprehensive multi-service architecture
+  * Demonstrated key features and functionalities
+  * Shared valuable lessons learned throughout the project
 
-* Used AWS CLI to perform basic operations such as:
+* Completed final assessment and received constructive feedback:
+  * Conducted thorough self-assessment of project outcomes
+  * Received valuable feedback from mentors
+  * Documented areas for future improvement
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Performed thorough project cleanup and resource management:
+  * Properly cleaned up all AWS resources to avoid unnecessary costs
+  * Prepared detailed final cost report with analysis
+  * Archived all project deliverables for future reference
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Successfully completed course and received certification:
+  * Passed final knowledge assessment with excellent results
+  * Received course completion certificate
+  * Planned next learning steps for continued AWS skill development
