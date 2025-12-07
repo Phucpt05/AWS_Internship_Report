@@ -8,6 +8,8 @@ pre: " <b> 2. </b> "
 
 ## 🐦 Proposal: Flyora – E-commerce Platform for Bird Lovers
 
+📄 **[Download Full Proposal PDF](/Proposal%20FLYORA.pdf)**
+
 ### 1. Executive Summary
 Flyora is a specialized web application designed to serve bird enthusiasts across Vietnam. It offers curated products such as bird food, toys, cages, and decorative accessories tailored to species like Chào Mào, Vẹt, Yến Phụng, and Chích Chòe. Built with modern web technologies and hosted on AWS, Flyora ensures scalability, performance, and secure access. The platform aims to become the go-to destination for bird care and ornamentation, combining e-commerce with personalization and community engagement.
 
@@ -27,22 +29,22 @@ Flyora delivers a responsive, category-driven shopping experience with secure us
 
 ### 3. Solution Architecture
 #### 📄 System Architecture Diagram
-![System Architecture Diagram](https://phucqb.sirv.com/Images/SystemArch.drawio.png)
+![System Architecture Diagram](https://phucqb.sirv.com/Images/4a27331b2b7fa421fd6e.jpg)
 
 #### 🧩 Frontend (Web Tier)
 - **Amazon S3**: Static web hosting for frontend assets
 - **CloudFront**: CDN for global content delivery
 - **Responsive design**: Mobile-friendly interface
 
-
-
 #### 🔐 Authentication & Security
-- **Amazon Cognito**: User authentication and authorization
 - **IAM**: Identity and access management
-- **CloudWatch**: Monitoring and security layer
+- **CloudWatch & AWS X-Ray**: Monitoring and distributed tracing
 
 #### 🔄 Backend Services (App Tier)
-- **Amazon API Gateway**: HTTP API management
+#### Technical Improvements:
+- Responsive, mobile-friendly UI
+- Secure user authentication and role management (IAM)
+- Scalable backend with Lambda/API Gateway
 - **AWS Lambda Functions**: 
   - Chatbot handler
   - Import automation
@@ -70,7 +72,7 @@ Flyora delivers a responsive, category-driven shopping experience with secure us
 
 #### Month 1 - AWS Learning Focus:
 - **Week 1-2**: AWS fundamentals (S3, Lambda, API Gateway, DynamoDB)
-- **Week 3**: Advanced services (Cognito, Bedrock, OpenSearch)
+- **Week 3**: Advanced services (Bedrock, OpenSearch)
 - **Week 4**: Architecture design and database modeling with MySQL Workbench
 
 #### Technical Requirements:
@@ -93,18 +95,22 @@ Flyora delivers a responsive, category-driven shopping experience with secure us
 
 ### 6. Budget Estimation
 
-| Item                        | Monthly Cost | Annual Cost |
-|-----------------------------|--------------|-------------|
-| Amazon S3 + CloudFront      | $0.20        | $2.40       |
-| AWS Lambda                  | $0.00        | $0.00       |
-| Amazon API Gateway          | $0.01        | $0.12       |
-| DynamoDB                    | $0.25        | $3.00       |
-| Amazon Cognito              | $0.08        | $0.96       |
-| CloudWatch & Logs           | $0.05        | $0.60       |
-| Amazon Bedrock (Embedding/LLM)| $0.10      | $1.20       |
-| Amazon RDS for PostgreSQL   | $0.20        | $2.40       |
-| CodePipeline/CodeBuild      | $0.05        | $0.60       |
-| **Total Estimate**          | **$0.94**    | **$11.28**  |
+| Item                                     | Monthly Cost | Annual Cost |
+|------------------------------------------|--------------|-------------|
+| Amazon S3 (Simple Storage Service)       | $0.15        | $1.80       |
+| AWS Lambda (Serverless Compute)          | $0.00        | $0.00       |
+| Amazon API Gateway (REST API Endpoints)  | $0.04        | $0.48       |
+| DynamoDB (On-demand NoSQL Database)      | $0.00        | $0.00       |
+| AWS X-Ray (Application Monitoring)        | $0.01        | $0.12       |
+| Amazon CloudWatch (Monitoring & Logs)    | $0.00        | $0.00       |
+| Amazon Bedrock (AI/LLM Services)          | $3.49        | $41.88      |
+| Amazon RDS for PostgreSQL (Relational DB) | $21.01       | $252.12     |
+| AWS Data Transfer (Network Traffic)       | $0.00        | $0.00       |
+| Amazon CloudFront (CDN Service)          | $0.10        | $1.20       |
+| AWS CodePipeline (CI/CD Automation)      | $0.00        | $0.00       |
+| AWS CodeBuild (Build Service)             | $2.52        | $30.24      |
+| Amazon VPC (Virtual Private Cloud)        | $43.07       | $516.84     |
+| **Total Estimate**                        | **$70.39**   | **$844.68** |
 
 Hardware costs are not applicable as Flyora is a web-only platform.
 
@@ -126,7 +132,7 @@ Hardware costs are not applicable as Flyora is a web-only platform.
 
 #### Technical Improvements:
 - Responsive, mobile-friendly, UI/UX
-- Secure user authentication and role management (Cognito, IAM)
+- Secure user authentication and role management (IAM)
 - Scalable backend with Lambda/API Gateway
 - Real-time product filtering and chatbot support
 - AI-powered features via Bedrock (Embedding/LLM)

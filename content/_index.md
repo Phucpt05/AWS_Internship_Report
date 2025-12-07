@@ -16,9 +16,9 @@ chapter: false
 
 &emsp; **Email:** phamthanhqb2005@gmail.com
 
-&emsp; **University:** FPT HCM
+&emsp; **University:** FPT HCM University
 
-&emsp; **Major:** Information Technology
+&emsp; **Major:** Software Engineering
 
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
